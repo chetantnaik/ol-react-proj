@@ -5,7 +5,7 @@ import View from 'ol/View';
 import './Map.css';
 
 
-const Map = ({ children, center, zoom }) => {
+const Map = ({ children, center, zoom, extent }) => {
     const mapRef = useRef();
     const [map, setMap] = useState(null);
 
@@ -15,7 +15,8 @@ const Map = ({ children, center, zoom }) => {
             target: mapRef.current,
             view: new View({
                 center: center,
-                zoom: zoom
+                zoom: zoom,
+                extent: extent
             }),
             layers: [],
             controls: []
@@ -33,6 +34,7 @@ const Map = ({ children, center, zoom }) => {
     }
     useEffect(() => {
         if (map) {
+            console.log(map.getView().calculateExtent());
             map.addEventListener("click", captureCoord);
 
             return () => {

@@ -73,7 +73,7 @@ const zoom = 9;
 function App() {
   return (
     <>
-      <Map center={center} zoom={zoom}>
+      <Map center={center} zoom={zoom} extent={[-15506166.91707234, 1514039.116983532, -478035.6599804098, 8881345.65122196]}>
         <Layers>
           <Tile source={OSM()} />
           <Vector title="TOWNS" source={Towns} visible={true} style={style} />
