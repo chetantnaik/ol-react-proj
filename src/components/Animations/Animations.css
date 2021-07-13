@@ -1,0 +1,13 @@
+.loading{
+    background-color:rgba(143, 140, 140, 0.5);
+    border-radius: 2px;
+    right: 5px;
+    bottom: 10px;
+    padding:2px;
+    position: absolute;
+    z-index: 999;
+}
+
+.loading-stop{
+    display:none;
+}

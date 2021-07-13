@@ -1,0 +1,41 @@
+.panel-visible{
+    position:absolute;
+    right:5px;
+    top:40px;
+    background-color:rgba(0,60,136,0.7);
+    padding: 5px;
+    z-index:999;
+    border-radius: 5px;
+}
+
+.panel-hide{
+    display: none;
+}
+
+.layer-list{    
+    top: 5px;
+    right: .5em;
+    z-index: 999; 
+}
+
+.layer-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0px;
+    padding: 10px;
+}
+
+.chkbox {
+    margin: 10px;
+}
+  
+.chkbox:hover {
+    cursor: pointer;
+}
+
+.lyr {
+    margin: 10px;
+    color: aliceblue;
+}
+  
