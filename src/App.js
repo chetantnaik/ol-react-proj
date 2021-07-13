@@ -68,12 +68,13 @@ const style = new Style({
 //Set the center and zoom - start
 const center = [-7992101.288526376, 5197692.384102746];
 const zoom = 9;
+const extent = [-15506166.91707234, 1514039.116983532, -478035.6599804098, 8881345.65122196];
 //Set the center and zoom - end
 
 function App() {
   return (
     <>
-      <Map center={center} zoom={zoom} extent={[-15506166.91707234, 1514039.116983532, -478035.6599804098, 8881345.65122196]}>
+      <Map center={center} zoom={zoom} extent={extent}>
         <Layers>
           <Tile source={OSM()} />
           <Vector title="TOWNS" source={Towns} visible={true} style={style} />
