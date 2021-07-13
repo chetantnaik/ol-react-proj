@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/ol-react-proj/static/css/main.3f2c0a8d.chunk.css",
+    "main.js": "/ol-react-proj/static/js/main.3d80700f.chunk.js",
+    "main.js.map": "/ol-react-proj/static/js/main.3d80700f.chunk.js.map",
+    "runtime-main.js": "/ol-react-proj/static/js/runtime-main.038e7871.js",
+    "runtime-main.js.map": "/ol-react-proj/static/js/runtime-main.038e7871.js.map",
+    "static/css/2.0426ddcf.chunk.css": "/ol-react-proj/static/css/2.0426ddcf.chunk.css",
+    "static/js/2.beb2a65f.chunk.js": "/ol-react-proj/static/js/2.beb2a65f.chunk.js",
+    "static/js/2.beb2a65f.chunk.js.map": "/ol-react-proj/static/js/2.beb2a65f.chunk.js.map",
+    "static/js/3.8e39c34e.chunk.js": "/ol-react-proj/static/js/3.8e39c34e.chunk.js",
+    "static/js/3.8e39c34e.chunk.js.map": "/ol-react-proj/static/js/3.8e39c34e.chunk.js.map",
+    "index.html": "/ol-react-proj/index.html",
+    "static/css/2.0426ddcf.chunk.css.map": "/ol-react-proj/static/css/2.0426ddcf.chunk.css.map",
+    "static/css/main.3f2c0a8d.chunk.css.map": "/ol-react-proj/static/css/main.3f2c0a8d.chunk.css.map",
+    "static/js/2.beb2a65f.chunk.js.LICENSE.txt": "/ol-react-proj/static/js/2.beb2a65f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.038e7871.js",
+    "static/css/2.0426ddcf.chunk.css",
+    "static/js/2.beb2a65f.chunk.js",
+    "static/css/main.3f2c0a8d.chunk.css",
+    "static/js/main.3d80700f.chunk.js"
+  ]
+}
